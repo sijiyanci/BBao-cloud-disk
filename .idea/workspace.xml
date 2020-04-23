@@ -16,10 +16,32 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fadf8a3-64a2-49b0-a52d-48a1a54bbb22" name="Default Changelist" comment="test1" />
+    <list default="true" id="2fadf8a3-64a2-49b0-a52d-48a1a54bbb22" name="Default Changelist" comment="test3/">
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/guitest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBao-cloud-disk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BBao-cloud-disk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +65,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java/jdk-13.0.1" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -109,12 +134,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
     <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="237" y="0" key="#Project_Structure" timestamp="1587622749944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="237" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587622749944" />
     <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587613681410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -123,26 +153,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="213" y="106" width="1200" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587618227545" />
-    <state x="757" y="307" key="FileChooserDialogImpl" timestamp="1587614121829">
+    <state x="757" y="307" key="FileChooserDialogImpl" timestamp="1587622350335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="757" y="307" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587614121829" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1587618227500">
+    <state x="757" y="307" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587622350335" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1587622707601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587618227500" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1587618227499">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587622707601" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1587622707601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587618227499" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1587618227497">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587622707601" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1587622707600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587618227496" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1587618227500">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587622707600" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1587622707601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587618227500" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587622707601" />
     <state x="361" y="76" key="SettingsEditor" timestamp="1587613900768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
