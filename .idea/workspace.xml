@@ -24,13 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fadf8a3-64a2-49b0-a52d-48a1a54bbb22" name="Default Changelist" comment="test1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2fadf8a3-64a2-49b0-a52d-48a1a54bbb22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/guitest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/guitest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/guitest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/guitest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1avPrFxhAlVmY5BXfksIJGlPDYf" />
@@ -63,7 +65,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -82,7 +84,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.loginGUI">
+    <configuration name="loginGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.loginGUI" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.start" />
       <module name="BBao-cloud-disk" />
@@ -99,6 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.start" />
+        <item itemvalue="Application.loginGUI" />
+        <item itemvalue="Application.start" />
+        <item itemvalue="Application.loginGUI" />
+        <item itemvalue="Application.start" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +131,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587613290874</updated>
-      <workItem from="1587646704327" duration="271000" />
+      <workItem from="1587646704327" duration="3678000" />
+      <workItem from="1587708698439" duration="2918000" />
+      <workItem from="1587711736717" duration="3862000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1587614597678</created>
@@ -128,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587618185691</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test6">
+      <created>1587647069614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587647069614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,52 +177,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="test6" />
+    <option name="LAST_COMMIT_MESSAGE" value="test6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="237" y="0" key="#Project_Structure" timestamp="1587622749944">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="237" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587622749944" />
-    <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587613681410">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587613681410" />
-    <state x="213" y="106" width="1200" height="584" key="DiffContextDialog" timestamp="1587618227545">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="213" y="106" width="1200" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587618227545" />
-    <state x="757" y="307" key="FileChooserDialogImpl" timestamp="1587622350335">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="757" y="307" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587622350335" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1587622707601">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587622707601" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1587622707601">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587622707601" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1587622707600">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587622707600" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1587622707601">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587622707601" />
-    <state x="361" y="76" key="SettingsEditor" timestamp="1587613900768">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="76" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587613900768" />
-    <state x="638" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587614520013">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="638" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587614520013" />
-    <state x="433" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1587613765891">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="433" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587613765891" />
+    <state x="237" y="0" key="#Project_Structure" />
+    <state x="237" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" />
+    <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="213" y="106" width="1200" height="584" key="DiffContextDialog" />
+    <state x="213" y="106" width="1200" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="757" y="307" key="FileChooserDialogImpl" />
+    <state x="757" y="307" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
+    <state x="361" y="76" key="SettingsEditor" />
+    <state x="361" y="76" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
+    <state x="638" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="638" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" />
+    <state x="433" y="146" width="672" height="678" key="search.everywhere.popup" />
+    <state x="433" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" />
   </component>
 </project>
