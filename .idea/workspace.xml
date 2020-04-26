@@ -29,7 +29,22 @@
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/META-INF/BBao-cloud-disk.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/META-INF/BBao-cloud-disk.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/images/Close_48px_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/images/close_536px.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/JavaJF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/JavaJF.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$2.class" afterDir="false" />
@@ -43,6 +58,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/loginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/loginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/registerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/registerGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/GUI" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -86,6 +102,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\BBao\BBao-cloud-disk\src\GUI" />
       <recent name="F:\Java\BBao\BBao-cloud-disk\src\images" />
       <recent name="D:\项目\Java\BBao-cloud-disk\src" />
     </key>
@@ -102,7 +119,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.loginGUI">
+  <component name="RunManager" selected="Application.ServerGUI">
+    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.Main12" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.ServerGUI" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.UserInterface" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginGUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.loginGUI" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="loginGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.loginGUI" />
       <module name="BBao-cloud-disk" />
@@ -116,38 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="registerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gui.registerGUI" />
-      <module name="BBao-cloud-disk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.start" />
-      <module name="BBao-cloud-disk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.loginGUI" />
-        <item itemvalue="Application.registerGUI" />
-        <item itemvalue="Application.start" />
-        <item itemvalue="Application.start" />
+        <item itemvalue="Application.ServerGUI" />
+        <item itemvalue="Application.UserInterface" />
+        <item itemvalue="Application.loginGUI (1)" />
+        <item itemvalue="Application.Main12" />
         <item itemvalue="Application.loginGUI" />
       </list>
     </recent_temporary>
@@ -157,7 +200,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2fadf8a3-64a2-49b0-a52d-48a1a54bbb22" name="Default Changelist" comment="" />
+      <changelist id="99bdc142-9450-4c8e-bade-d4d91d267914" name="Default Changelist" comment="" />
       <created>1587613290874</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -165,6 +208,8 @@
       <workItem from="1587646704327" duration="3678000" />
       <workItem from="1587708698439" duration="2918000" />
       <workItem from="1587711736717" duration="3862000" />
+      <workItem from="1587782080994" duration="411000" />
+      <workItem from="1587902800290" duration="11645000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1587614597678</created>
