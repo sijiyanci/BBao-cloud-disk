@@ -26,9 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99bdc142-9450-4c8e-bade-d4d91d267914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +178,7 @@
       <workItem from="1587711736717" duration="3862000" />
       <workItem from="1587782080994" duration="411000" />
       <workItem from="1587902800290" duration="11734000" />
-      <workItem from="1587950089943" duration="7555000" />
+      <workItem from="1587950089943" duration="8425000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1587614597678</created>
