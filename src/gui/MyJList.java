@@ -1,11 +1,9 @@
-package GUI;
+package gui;
 
 import javax.swing.*;
-import javax.swing.event.ListDataListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.Arrays;
-import java.util.Vector;
 
 public class MyJList extends JList {
     private DefaultListModel dlm;

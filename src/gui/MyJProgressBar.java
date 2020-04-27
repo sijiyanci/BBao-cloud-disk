@@ -1,7 +1,6 @@
-package GUI;
+package gui;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class MyJProgressBar extends JProgressBar implements Runnable{
     private FileController fcl;

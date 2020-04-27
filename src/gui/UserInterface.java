@@ -1,22 +1,9 @@
-package GUI;
-import test.myList;
+package gui;
 
 import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.TreePath;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
-import java.sql.Array;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Vector;
 
 public class UserInterface extends JFrame {
 

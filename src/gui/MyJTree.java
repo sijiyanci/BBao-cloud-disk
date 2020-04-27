@@ -1,14 +1,11 @@
-package GUI;
+package gui;
 
 import javax.swing.*;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
-import java.io.File;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Vector;
 
 public class MyJTree extends JTree{
     private MyJList ml;

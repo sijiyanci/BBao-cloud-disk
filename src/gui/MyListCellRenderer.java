@@ -1,9 +1,7 @@
-package GUI;
+package gui;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
 class MyListCellRenderer extends JLabel implements ListCellRenderer {
 
