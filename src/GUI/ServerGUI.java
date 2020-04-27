@@ -21,12 +21,9 @@ public class ServerGUI {
     Container contentPane; //容器，从jFrame获得
     JTabbedPane jTabbedPane; //选项卡容器
     JButton buttonClose;//关闭按钮
-    JList<String> jList;
-    JScrollPane jScrollPane;
+
     File projectFile = new File(".");
 
-    //加于jTabbedPane的三张面扳
-    JPanel[] jPanels = new JPanel[3];
 
     public static void main(String[] args) {
         ServerGUI serverGUI = new ServerGUI();
@@ -79,23 +76,15 @@ public class ServerGUI {
     //设计选项卡
     public void designPanel(){
 
-        //创建面板
-        jPanels[0] = FirstPage();
-        jPanels[1] = userFile();
-        jPanels[2] = new JPanel();
-
-
         //将面板加入jTabbedPanel中
-        jTabbedPane.add("首页",jPanels[0]);
-        jTabbedPane.add("用户文件",jPanels[1]);
-        jTabbedPane.add("用户操作记录",jPanels[2]);
+        jTabbedPane.add("首页",FirstPage());
+        jTabbedPane.add("用户文件",new JScrollPane(new JTree(addNodes(projectFile))));
+        jTabbedPane.add("用户操作记录",operate());
+
 
         Font font = new Font("Microsoft JhengHei Light",Font.PLAIN,25);
 
         jTabbedPane.setFont(font);
-  /*      jTabbedPane.addTab("JTable", new JScrollPane(new JTable(5, 5)));
-        jTabbedPane.addTab("JTree", new JScrollPane(new JTree()));
-        jTabbedPane.addTab("JSplitPane", new JSplitPane());*/
 
         //设置标签页的背景色
         jTabbedPane.setBackground(Color.LIGHT_GRAY);
@@ -110,7 +99,7 @@ public class ServerGUI {
 
     }
 
-    public static JPanel FirstPage(){
+    public JPanel FirstPage(){
         JPanel jPanel = new JPanel();
         JLabel userNumLabel = new JLabel("用户总数:");
         JLabel roomLabel = new JLabel("磁盘总空间:");
@@ -225,50 +214,6 @@ public class ServerGUI {
         return jPanel;
     }
 
-    public JPanel userFile(){
-        JPanel jPanel = new JPanel();
-
-
-        jPanel.setBorder(new EmptyBorder(5,5,5,5));
-        jPanel.setBounds(10,150,680,500);
-        jPanel.setLayout(null);
-        jPanel.setBackground(Color.WHITE);
-
-        JTree jTree = new JTree(addNodes(projectFile));
-        jPanel.add(jTree);
-        jTree.addTreeSelectionListener(new TreeSelectionListener() {
-            @Override
-            public void valueChanged(TreeSelectionEvent treeSelectionEvent) {
-                DefaultMutableTreeNode node = (DefaultMutableTreeNode) treeSelectionEvent.getPath().getLastPathComponent();
-                if (node == null || node.isLeaf())
-                    return;
-                Object[] nodes = node.getPath();
-
-                String path = new String();
-                if (!node.isLeaf()) {
-                    for (Object i : nodes){
-                        path += i.toString()+'/';
-                    }
-                }
-                displayContent(path);
-            }
-        });
-
-
-        return jPanel;
-    }
-
-    void displayContent(String path){
-        File dir=new File(path);
-        File[] temp=dir.listFiles();
-        Vector<String> strlist=new Vector<>();
-        for(File i:temp){
-            strlist.add(i.getName());
-        }
-
-        jList=new JList<>(strlist);
-        jScrollPane.setViewportView(jList);
-    }
 
     DefaultMutableTreeNode addNodes(File dir) {
 
@@ -300,6 +245,32 @@ public class ServerGUI {
         return curDir;
     }
 
+    public JScrollPane operate(){
+        JScrollPane jScrollPane = new JScrollPane();
+        jScrollPane.setViewportView(makeList());
+
+        return jScrollPane;
+    }
+
+    public JList<JPanel> makeList(){
+        Vector<JPanel> vector = new Vector<>();
+        JPanel jPanel;
+        int i = 0;
+        int y = -100;
+        int height = 100;
+        while (i++ <= 5){
+            jPanel = new JPanel();
+            jPanel.setBorder(new EmptyBorder(5,5,5,5));
+            jPanel.setBounds(0,y + (height+3)*i,680,height);
+            jPanel.setLayout(null);
+            jPanel.setBackground(Color.pink);
+
+            vector.add(jPanel);
+
+        }
+        JList<JPanel> jList = new JList<>(vector);
+        return jList;
+    }
 
 
     class SpacedTabbedPaneUI extends BasicTabbedPaneUI {

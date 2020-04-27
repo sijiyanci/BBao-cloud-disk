@@ -26,39 +26,18 @@
   <component name="ChangeListManager">
     <list default="true" id="99bdc142-9450-4c8e-bade-d4d91d267914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$SpacedTabbedPaneUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$SpacedTabbedPaneUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$SpacedTabbedPaneUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI$SpacedTabbedPaneUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/ServerGUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/loginGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI$PopUpWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/registerGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/images/Close_48px_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/images/close_536px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/JavaJF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/JavaJF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList$MyCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList$MyCellRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/loginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/loginGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/registerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/registerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ServerGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +188,8 @@
       <workItem from="1587708698439" duration="2918000" />
       <workItem from="1587711736717" duration="3862000" />
       <workItem from="1587782080994" duration="411000" />
-      <workItem from="1587902800290" duration="11645000" />
+      <workItem from="1587902800290" duration="11734000" />
+      <workItem from="1587950089943" duration="6635000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1587614597678</created>
@@ -232,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587647069614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ServerGUI-01">
+      <created>1587915337699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587915337699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
     <MESSAGE value="test6" />
-    <option name="LAST_COMMIT_MESSAGE" value="test6" />
+    <MESSAGE value="ServerGUI-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServerGUI-01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="237" y="0" key="#Project_Structure" />
