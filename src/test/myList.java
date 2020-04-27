@@ -16,6 +16,7 @@ public class myList extends JPanel {
             mode.addElement("123");
         }
         mList = new JList(mode);
+
         mList.setCellRenderer(new MyCellRenderer());
         add(new JScrollPane(mList), BorderLayout.CENTER);
     }

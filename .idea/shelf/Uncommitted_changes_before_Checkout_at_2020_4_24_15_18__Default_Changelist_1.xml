@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2020_4_24_15_18_[Default_Changelist]1" date="1587712723143" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_4_24_15_18_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2020/4/24 15:18 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+    <option name="AFTER_PATH" value="out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_4_24_15_18_[Default_Changelist]1/SupportCode$TextWithMnemonic.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode.class" />
+    <option name="AFTER_PATH" value="out/production/BBao-cloud-disk/com/intellij/uiDesigner/core/SupportCode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_4_24_15_18_[Default_Changelist]1/SupportCode.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/BBao-cloud-disk/test/guitest.class" />
+    <option name="AFTER_PATH" value="out/production/BBao-cloud-disk/test/guitest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_4_24_15_18_[Default_Changelist]1/guitest.class" />
+  </binary>
+</changelist>
