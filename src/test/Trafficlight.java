@@ -46,6 +46,7 @@ public class Trafficlight extends JFrame{
         for(int i=0;i<jr.length;i++) {
             JRadioButton temp=new JRadioButton(color[i]);
             JavaJF tempjf=circle[i];
+
             Color tempc=color1[i];
             temp.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -54,11 +55,14 @@ public class Trafficlight extends JFrame{
                         System.out.println(temp.getText());
                         for(int j=0;j<3;j++) {
                             if(!tempjf.equals(circle[j])) {
-                                circle[j].c=Color.white;
+                                //circle[j].c=Color.white;
+                                circle[j].setBackground(Color.white);
                             }
                         }
-                        tempjf.c=tempc;
-                        panel1.repaint();
+                        //tempjf.setBackground(tempc);
+                        tempjf.setSize(new Dimension(10,10));
+                       // tempjf.repaint();
+                        //panel1.repaint();
                         //circle1.setBackground(Color.red);
 
                     }
