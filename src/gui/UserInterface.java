@@ -1,26 +1,28 @@
 package gui;
+
 import javax.swing.*;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.TreePath;
 import java.awt.*;
+import java.awt.event.*;
 import java.io.File;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Vector;
 
 public class UserInterface extends JFrame {
 
-    private JPanel jpanel1,jpanel2,jpanel3,jpanel4;
+    private JPanel jpanel1,jpanel2,jpanel3,jpanel4,jpanel5;
     private JLabel jlabel1;
     private JButton jbutton1,jbutton2,jbutton3;
     private JTextField jtf1;
-    private JTree jtree1;
-    private JList<String> jlist1;
+    private MyJTree jtree1;
+    private MyJList jList;
     private JScrollPane jscroll1;
+    private MyJPopupMenu jpmenu1;
+    private String[] jitems1_str={"下载","分享","删除"};
     private File projectFile = new File(".");
+    private JFileChooser jfc1;
+    private Point origin;
+    private ProgressBar progressBar;
+    private MyJProgressBar jpg;
+
+
     public static void main(String[] arg){
         UserInterface jframe=new UserInterface();
         jframe.setVisible(true);
@@ -31,6 +33,25 @@ public class UserInterface extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(0, 0, 700, 500);
         getContentPane().setLayout(null);
+
+        addMouseListener((MouseListener) new MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                origin=new Point();
+                origin.x=e.getX();
+                origin.y=e.getY();
+            }
+
+            public void mouseReleased(MouseEvent e) {
+
+            }
+        });
+        addMouseMotionListener((MouseMotionListener) new MouseMotionAdapter() {
+            public void mouseDragged(MouseEvent e) {
+                    Point p=getLocation();
+                    setLocation(p.x + e.getX() - origin.x, p.y + e.getY() - origin.y);
+
+            }
+        });
 
         //初始化上下部分
         jpanel1=new JPanel();
@@ -57,9 +78,7 @@ public class UserInterface extends JFrame {
         jpanel4.setBackground(new Color(200,200,0));
         jpanel2.add(jpanel4);
 
-        jscroll1=new JScrollPane();
-        jscroll1.setBounds(0,0,325,365);
-        jpanel4.add(jscroll1);
+
 
         //上部分建立
         jlabel1=new JLabel("用户名");
@@ -78,91 +97,122 @@ public class UserInterface extends JFrame {
         jtf1=new JTextField();
         jtf1.setBounds(340,65,220,25);
         jpanel1.add(jtf1);
+        jpg=new MyJProgressBar();
+        jpg.setBounds(110,10,160,25);
+        jpanel1.add(jpg);
+        jpg.setVisible(false);
+
+        //下部分建立
+        jpmenu1=new MyJPopupMenu(jitems1_str);
+        jList=new MyJList(jpmenu1);
+        jtree1=new MyJTree(".",jList);
+
+        jscroll1=new JScrollPane(jList);
+        jscroll1.setBounds(0,0,325,365);
+        jpanel4.add(jscroll1);
 
         jpanel3.setLayout(new BorderLayout());
-        jtree1=new JTree(addNodes( projectFile));
         jpanel3.add(jtree1);
-        jtree1.addTreeSelectionListener(new TreeSelectionListener() {
-            @Override
-            public void valueChanged(TreeSelectionEvent e) {
-                DefaultMutableTreeNode node = (DefaultMutableTreeNode) e.getPath()
-                        .getLastPathComponent();
-                if(node==null||node.isLeaf())
-                    return ;
-                Object[] nodes=node.getPath();
 
-                String path=new String();
-                if(!node.isLeaf()){
-                    for(Object i:nodes){
-                        path+=i.toString()+'/';
+
+
+
+        jbutton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jfc1 = new JFileChooser();
+
+                int returnVal = jfc1.showOpenDialog(new JPanel());
+//保存文件从这里入手，输出的是文件名
+                if(returnVal == JFileChooser.APPROVE_OPTION) {
+                    System.out.println("你打开的文件是: " +
+                            jfc1.getSelectedFile().getName());
+//                    progressBar=new ProgressBar();
+//                    progressBar.setVisible(true);
+                    jpg.setVisible(true);
+                    jpg.setRun();
+                }
+            }
+        });
+        jbutton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+        jbutton3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+    }
+
+    class ProgressBar extends JFrame{
+        private JProgressBar jpb;
+        public ProgressBar(){
+            setBounds(100,100,300,150);
+            setLayout(new BorderLayout());
+            JPanel jpanel1=new JPanel();
+            add(jpanel1,BorderLayout.CENTER);
+
+            jpanel1.setLayout(new GridBagLayout());
+            jpanel1.setBackground(Color.CYAN);
+            GridBagConstraints gbc=new GridBagConstraints();
+
+            JProgressBar jpb=new JProgressBar();
+            jpb.setStringPainted(true);
+            gbc.gridx=0;
+            gbc.gridy=0;
+            gbc.gridwidth=1;
+            gbc.gridwidth=1;
+            gbc.weightx=1;
+            gbc.weighty=0.7;
+            gbc.fill=GridBagConstraints.NONE;
+            gbc.anchor=GridBagConstraints.CENTER;
+            //gbc.insets=new Insets(10,10,0,0);
+            jpanel1.add(jpb,gbc);
+
+
+            gbc=new GridBagConstraints();
+            JButton btn2=new JButton("完成");
+            gbc.gridx=0;
+            gbc.gridy=1;
+            gbc.gridwidth=1;
+            gbc.gridwidth=1;
+            gbc.weightx=1;
+            gbc.weighty=0.3;
+            gbc.fill=GridBagConstraints.NONE;
+            gbc.anchor=GridBagConstraints.CENTER;
+            jpanel1.add(btn2,gbc);
+            btn2.setVisible(false);
+
+            new Thread(){
+                public void run(){
+                    for(int i=0;i<=100;i++){
+                        try{
+                            Thread.sleep(50);
+                        }catch(InterruptedException e){
+                            e.printStackTrace();
+                        }
+                        jpb.setValue(i);
                     }
+                    jpb.setString("上传成功！");
+                    btn2.setVisible(true);
                 }
-                displayContent(path);
-
-            }
-        });
-    }
-    void displayContent(String path){
-//          String[]  items = new String[]{"Spring", "Summer",  "Fall",  "Winter"};
-//          jlist1 = new JList<>(items);
-//          jscroll1.setViewportView(jlist1);
-
-        File dir=new File(path);
-        File[] temp=dir.listFiles();
-        Vector<String> strlist=new Vector<>();
-        for(File i:temp){
-            strlist.add(i.getName());
+            }.start();
         }
-
-        jlist1=new JList<>(strlist);
-        jscroll1.setViewportView(jlist1);
-
-
     }
-
-
-    DefaultMutableTreeNode addNodes(File dir) {
-
-        DefaultMutableTreeNode curDir = new DefaultMutableTreeNode(dir.getName());
-
-        File[] tmp = dir.listFiles();
-        Vector<File> ol = new Vector<File>();
-        ol.addAll(Arrays.asList(tmp));
-        Collections.sort(ol, new Comparator<File>() {
-            @Override
-            public int compare(File o1, File o2) {
-                int result = o1.getName().compareTo(o2.getName());
-                if (o1.isDirectory() && o2.isFile()) {
-                    result = -1;
-                } else if (o2.isDirectory() && o1.isFile()) {
-                    result = 1;
-                }
-                return result;
-            }
-        });
-        for (int i = 0; i < ol.size(); i++) {
-            File file = ol.elementAt(i);
-            DefaultMutableTreeNode node=new DefaultMutableTreeNode(file.getName());
-            if (file.isDirectory()) {
-                node=addNodes(file);
-            }
-            curDir.add(node);
-        }
-        return curDir;
-    }
-
 
 }
 
-//class MyTreeNode extends DefaultMutableTreeNode{
-//    private String path;
-//    public MyTreeNode(File f){
-//        super(f.getName());
-//        path=f.getPath();
-//    }
-//    public String getPath(){
-//        return path;
-//    }
-//
-//}
+
+
+
+
+
+
+
+
 
