@@ -20,14 +20,39 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+<<<<<<< HEAD
         <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+=======
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2fadf8a3-64a2-49b0-a52d-48a1a54bbb22" name="Default Changelist" comment="删除1">
+=======
+    <list default="true" id="99bdc142-9450-4c8e-bade-d4d91d267914" name="Default Changelist" comment="">
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/GUI/UserInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/META-INF/BBao-cloud-disk.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/META-INF/BBao-cloud-disk.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/JavaJF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/JavaJF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/Trafficlight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList$MyCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList$MyCellRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/myList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BBao-cloud-disk/test/start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/loginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/loginGUI.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,12 +68,19 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="gui" />
+=======
+        <entry key="$PROJECT_DIR$" value="master" />
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1avPrFxhAlVmY5BXfksIJGlPDYf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,17 +88,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java/jdk-13.0.1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\BBao\BBao-cloud-disk\src\images" />
       <recent name="D:\项目\Java\BBao-cloud-disk\src" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.UserInterface">
     <configuration name="UserInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.UserInterface" />
@@ -74,6 +110,40 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GUI.*" />
+=======
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.loginGUI">
+    <configuration name="loginGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.loginGUI" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="registerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.registerGUI" />
+      <module name="BBao-cloud-disk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,9 +166,15 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.UserInterface" />
+=======
+        <item itemvalue="Application.loginGUI" />
+        <item itemvalue="Application.registerGUI" />
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
         <item itemvalue="Application.start" />
         <item itemvalue="Application.start" />
+        <item itemvalue="Application.loginGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +188,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587613290874</updated>
+      <workItem from="1587646704327" duration="3678000" />
+      <workItem from="1587708698439" duration="2918000" />
+      <workItem from="1587711736717" duration="3862000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1587614597678</created>
@@ -127,15 +206,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587618185691</updated>
     </task>
-    <task id="LOCAL-00003" summary="uf3">
-      <created>1587712930061</created>
+    <task id="LOCAL-00003" summary="test6">
+      <created>1587647069614</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1587712930061</updated>
+      <updated>1587647069614</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -143,6 +225,7 @@
         <entry key="MAIN">
           <value>
             <State>
+<<<<<<< HEAD
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -154,19 +237,22 @@
                   </entry>
                 </map>
               </option>
+=======
+              <option name="COLUMN_ORDER" />
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
             </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
-    <MESSAGE value="uf3" />
-    <option name="LAST_COMMIT_MESSAGE" value="uf3" />
+    <MESSAGE value="test6" />
+    <option name="LAST_COMMIT_MESSAGE" value="test6" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="237" y="0" key="#Project_Structure" timestamp="1587622749944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,5 +305,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="433" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587613765891" />
+=======
+    <state x="237" y="0" key="#Project_Structure" />
+    <state x="237" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" />
+    <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="283" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="213" y="106" width="1200" height="584" key="DiffContextDialog" />
+    <state x="213" y="106" width="1200" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="757" y="307" key="FileChooserDialogImpl" />
+    <state x="757" y="307" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
+    <state x="361" y="76" key="SettingsEditor" />
+    <state x="361" y="76" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
+    <state x="638" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="638" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" />
+    <state x="433" y="146" width="672" height="678" key="search.everywhere.popup" />
+    <state x="433" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" />
+>>>>>>> d7e91e96d4aa025ccce2faed58e6d46dbabb7bf5
   </component>
 </project>
