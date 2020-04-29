@@ -1,11 +1,16 @@
-package gui;
+package client.gui.clientinterface;
+
+import client.gui.tools.MyJList;
+import client.gui.tools.MyJPopupMenu;
+import client.gui.tools.MyJProgressBar;
+import client.gui.tools.MyJTree;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 
-public class UserInterface extends JFrame {
+public class ClientInterface extends JFrame {
 
     private JPanel jpanel1,jpanel2,jpanel3,jpanel4,jpanel5;
     private JLabel jlabel1;
@@ -24,11 +29,11 @@ public class UserInterface extends JFrame {
 
 
     public static void main(String[] arg){
-        UserInterface jframe=new UserInterface();
+        ClientInterface jframe=new ClientInterface();
         jframe.setVisible(true);
     }
 
-    public UserInterface(){
+    public ClientInterface(){
         setUndecorated(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(0, 0, 700, 500);

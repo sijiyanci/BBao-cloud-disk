@@ -1,4 +1,4 @@
-package gui;
+package client.gui.register;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.Socket;
 
-public class registerGUI extends JFrame {
+public class Register extends JFrame {
     private static final long serialVersionUID = -6256528270698337162L;
     private JTextField userName; // 设置用户名输入框
     private JPasswordField password1; //设置密码输入框
@@ -28,7 +28,7 @@ public class registerGUI extends JFrame {
         frame.setVisible(true);
     }*/
 
-    public registerGUI(){
+    public Register(){
         //设置无标题栏
         setUndecorated(true);
         //监听鼠标确保窗体能够拖拽

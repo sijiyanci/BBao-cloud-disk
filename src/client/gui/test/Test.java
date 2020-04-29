@@ -1,4 +1,7 @@
-package gui;
+package client.gui.test;
+
+import client.gui.tools.MyJList;
+import client.gui.tools.MyJPopupMenu;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,9 +1,7 @@
-package gui;
+package server.gui.serverinterface;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
 import javax.swing.plaf.basic.BasicTabbedPaneUI;
 import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
@@ -15,7 +13,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Vector;
 
-public class ServerGUI {
+public class ServerInterface {
     private static final long serialVersionUID = -6256528270698337163L;
     JFrame jFrame = new JFrame();
     Container contentPane; //容器，从jFrame获得
@@ -26,12 +24,12 @@ public class ServerGUI {
 
 
     public static void main(String[] args) {
-        ServerGUI serverGUI = new ServerGUI();
+        ServerInterface serverGUI = new ServerInterface();
 
     }
 
     //创建窗体的内部
-    public ServerGUI(){
+    public ServerInterface(){
         jFrame.setUndecorated(true);
         jFrame.setResizable(false);
         jFrame.setBounds(500,50,700,550);

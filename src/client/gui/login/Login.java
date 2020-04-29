@@ -1,4 +1,6 @@
-package gui;
+package client.gui.login;
+
+import client.gui.register.Register;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -6,7 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.Socket;
 
-public class loginGUI extends JFrame{
+public class Login extends JFrame{
     private static final long serialVersionUID = -6256528270698337160L;
     private JTextField userName; //用户名输入框
     private JPasswordField password; //密码输入框
@@ -22,11 +24,11 @@ public class loginGUI extends JFrame{
     public static Socket socket;
 
     public static void main(String[] args) {
-        loginGUI frame = new loginGUI();
+        Login frame = new Login();
         frame.setVisible(true);
     }
 
-    public loginGUI(){
+    public Login(){
         //设置无标题栏
         setUndecorated(true);
         //监听鼠标确保窗体能够拖拽
@@ -135,7 +137,7 @@ public class loginGUI extends JFrame{
                 setVisible(true);
                 System.out.println("注册页面");
                 //new SignUp() //显示注册界面
-                registerGUI registerFrame = new registerGUI();
+                Register registerFrame = new Register();
                 registerFrame.setVisible(true);
             }
         });
