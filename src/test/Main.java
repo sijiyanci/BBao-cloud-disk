@@ -115,29 +115,29 @@ public class Main extends JPanel {
     }
 }
 
-//class MyTreeCellRenderer extends DefaultTreeCellRenderer {
-//    FileSystemView fsv = FileSystemView.getFileSystemView();
-//    @Override
-//    public Component getTreeCellRendererComponent(JTree tree, Object value,
-//                                                  boolean sel, boolean expanded, boolean leaf, int row, boolean hasFocus) {
-//        System.out.println(value);
-//        super.getTreeCellRendererComponent(tree, value, sel, expanded, leaf, row,
-//                hasFocus);
-//        if (value instanceof DefaultMutableTreeNode) {
-//            value = ((DefaultMutableTreeNode) value).getUserObject();
-//            if (value instanceof File) {
-//                File file = (File) value;
-////                if (file.isFile()) {
-////                    setIcon(fsv.getSystemIcon(file));
-////                    setText(file.getPath());
-////                } else {
-////                    setIcon(fsv.getSystemIcon(file));
-////                    setText(file.getName());
-////                }
-//                setIcon(fsv.getSystemIcon(file));
-//                setText(file.getName());
-//            }
-//        }
-//        return this;
-//    }
-//}
+class MyTreeCellRenderer extends DefaultTreeCellRenderer {
+    FileSystemView fsv = FileSystemView.getFileSystemView();
+    @Override
+    public Component getTreeCellRendererComponent(JTree tree, Object value,
+                                                  boolean sel, boolean expanded, boolean leaf, int row, boolean hasFocus) {
+        System.out.println(value);
+        super.getTreeCellRendererComponent(tree, value, sel, expanded, leaf, row,
+                hasFocus);
+        if (value instanceof DefaultMutableTreeNode) {
+            value = ((DefaultMutableTreeNode) value).getUserObject();
+            if (value instanceof File) {
+                File file = (File) value;
+//                if (file.isFile()) {
+//                    setIcon(fsv.getSystemIcon(file));
+//                    setText(file.getPath());
+//                } else {
+//                    setIcon(fsv.getSystemIcon(file));
+//                    setText(file.getName());
+//                }
+                setIcon(fsv.getSystemIcon(file));
+                setText(file.getName());
+            }
+        }
+        return this;
+    }
+}

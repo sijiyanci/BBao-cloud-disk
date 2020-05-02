@@ -19,14 +19,14 @@ public class ClientInterface extends JFrame {
     private MyJTree jtree1;
     private MyJList jList;
     private JScrollPane jscroll1;
-    private MyJPopupMenu jpmenu1;
-    private String[] jitems1_str={"下载","分享","删除"};
+    private MyJPopupMenu itempop,nopop;
+    private String[] itempop_strs={"下载","分享","删除","属性"};
+    private String[] nopop_strs={"新建文件夹"};
     private File projectFile = new File(".");
     private JFileChooser jfc1;
     private Point origin;
     private ProgressBar progressBar;
     private MyJProgressBar jpg;
-
 
     public static void main(String[] arg){
         ClientInterface jframe=new ClientInterface();
@@ -108,13 +108,19 @@ public class ClientInterface extends JFrame {
         jpg.setVisible(false);
 
         //下部分建立
-        jpmenu1=new MyJPopupMenu(jitems1_str);
-        jList=new MyJList(jpmenu1);
+        itempop=new MyJPopupMenu(itempop_strs);
+        nopop=new MyJPopupMenu(nopop_strs);
+        jList=new MyJList();
+        jList.newItemPop(itempop);
+        jList.newNoPop(nopop);
+        itempop.setMll(jList);
+        nopop.setMll(jList);
         jtree1=new MyJTree(".",jList);
-
-        jscroll1=new JScrollPane(jList);
-        jscroll1.setBounds(0,0,325,365);
-        jpanel4.add(jscroll1);
+        jList.setMjl(jtree1);
+      //  jscroll1=new JScrollPane(jList);
+      //  jscroll1.setBounds(0,0,325,365);
+        jList.setBounds(0,0,325,365);
+        jpanel4.add(jList);
 
         jpanel3.setLayout(new BorderLayout());
         jpanel3.add(jtree1);

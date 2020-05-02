@@ -12,7 +12,7 @@ public class TestTree {
         JFrame jf=new JFrame();
         String[] strlist ={"a","b","c"};
         MyJPopupMenu jmenu=new MyJPopupMenu(strlist);
-        MyJList ml=new MyJList(jmenu);
+        MyJList ml=new MyJList();
 
         JScrollPane jsp=new JScrollPane(ml);
 

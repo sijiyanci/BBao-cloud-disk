@@ -11,37 +11,38 @@ import java.awt.event.ActionListener;
 public class Test {
     public static void main(String[] arg){
           JFrame jf=new JFrame();
-          String[] strlist ={"a","b","c"};
-          MyJPopupMenu jmenu=new MyJPopupMenu(strlist);
-          MyJList ml=new MyJList(jmenu);
+          jf.getContentPane().setLayout(new GridBagLayout());
+          JTextField field=new JTextField("value.toString()");
+          JButton button=new JButton();
+          ImageIcon icon=new ImageIcon();
+          icon=new ImageIcon("./public/result/dir.jpg");
+          //            button.setIcon(icon);
+//              setSize(300,20);
+//              add(button,BorderLayout.NORTH);
+//              add(field,BorderLayout.SOUTH);
 
-          ml.updateList(".");
-          JScrollPane jsp=new JScrollPane(ml);
-          jf.getContentPane().setLayout(new FlowLayout());
-          JButton jbtn=new JButton("按键");
-          jf.add(jbtn);
-          jf.add(new JPanel().add(jsp));
-          jf.setBounds(0,0,500,500);
-          jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          GridBagConstraints gbc=new GridBagConstraints();
+          gbc.gridx=0;
+          gbc.gridy=0;
+          gbc.gridwidth=1;
+          gbc.gridwidth=1;
+          gbc.weightx=0.5;
+          gbc.weighty=0.7;
+          gbc.fill=GridBagConstraints.BOTH;
+          gbc.anchor=GridBagConstraints.CENTER;
+          jf.add(button,gbc);
+
+          gbc=new GridBagConstraints();
+          gbc.gridx=1;
+          gbc.gridy=1;
+          gbc.gridwidth=1;
+          gbc.gridwidth=1;
+          gbc.weightx=0.5;
+          gbc.weighty=0.3;
+          gbc.fill=GridBagConstraints.BOTH;
+          gbc.anchor=GridBagConstraints.CENTER;
+          jf.add(field,gbc);
           jf.setVisible(true);
-          jbtn.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                      ml.updateList("./src");
-
-                }
-          });
-
-//        JScrollPane jsp=new JScrollPane();
-//        MyList ml=new MyList();
-//        String[] strlist={"asdf","sdf","fsd"};
-//        ml.setPumenu(strlist);
-//        ml.update(".");
-//        jsp.add(ml);
-//        jf.setContentPane(jsp);
-//        jf.setVisible(true);
-//        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        jf.setBounds(0,0,300,300);
-
+          jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

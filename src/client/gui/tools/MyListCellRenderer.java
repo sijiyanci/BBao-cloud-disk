@@ -14,7 +14,8 @@ class MyListCellRenderer extends JLabel implements ListCellRenderer {
                                                   int index,
                                                   boolean isSelected,
                                                   boolean cellHasFocus) {
-        MyFile item=(MyFile)value;
+
+        MyClientFile item=(MyClientFile)value;
         ImageIcon icon=new ImageIcon();
         if(item.isDirectory())
             icon=new ImageIcon("./public/result/dir.jpg");
@@ -32,4 +33,5 @@ class MyListCellRenderer extends JLabel implements ListCellRenderer {
 
         return this;
     }
+
 }
